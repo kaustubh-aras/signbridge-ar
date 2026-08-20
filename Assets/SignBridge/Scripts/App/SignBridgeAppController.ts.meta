@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/2057f3f8-b8eb-4648-8846-d6602dcf9308>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e8c4ad4b-dc09-440b-863c-653a63aef41a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e8c4ad4b-dc09-440b-863c-653a63aef41a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> e3693b8d-a87b-42ca-8dea-adcf831c0a28
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/e3693b8d-a87b-42ca-8dea-adcf831c0a28>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 9877b1e0-e363-4504-a394-912cd8de7afb
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    fallbackDistance: false
+    wristLocalOffset: false
+    wristSmoothingRate: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - wristLocalOffset: !<Vec3> {x: -3.200000, y: 4.000000, z: 2.000000}
+      wristSmoothingRate: !<float> 12.000000
+      fallbackDistance: !<float> 56.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input vec3 wristLocalOffset = "{-3.2,4.0,2.0}" {"hint":"Local wrist-space offset in centimeters for the Speak control"}'
+    - '// @input float wristSmoothingRate = "12" {"hint":"Exponential position/rotation smoothing rate"}'
+    - '// @input float fallbackDistance = "56" {"hint":"View-relative fallback distance in centimeters"}'

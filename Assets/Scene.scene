@@ -5,7 +5,8 @@
     - !<own> 0005641c-028d-459a-0000-000000014b4d
     - !<own> d029bf48-19f5-41ef-add6-c6cc721f8ad4
     - !<own> beae2714-1555-483e-8750-5ad8ad6d00ed
-    - !<own> 0db70e31-462e-4578-934d-2f673872c9e7
+    - !<own> a4511120-0253-45e0-87ad-b65bd9dc316b
+    - !<own> ca37c006-2a0b-4955-917c-7857dde3f69b
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       - id: 1
@@ -705,21 +706,6 @@
     - !<own> 5e2db866-398c-4b02-b57e-2a638efadc39
   Components:
     - !<own> b3518cc5-e593-4163-94d2-52ef5d9e964e
-- !<SceneObject/0db70e31-462e-4578-934d-2f673872c9e7>
-  PrefabRemaps:
-    []
-  Name: AiPreviewAgent Handler
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 1999680c-be82-403c-9fda-312c970685dd
 - !<SceneObject/0f73a805-6289-461e-8643-cc1d436d1391>
   PrefabRemaps:
     []
@@ -1003,22 +989,6 @@
   BlendNormals: false
   BlendShapes:
     {}
-- !<ScriptComponent/1999680c-be82-403c-9fda-312c970685dd>
-  PrefabRemaps:
-    []
-  Name: AgentInspectScript
-  Enabled: true
-  ScriptAsset: !<reference> 0b25079c-f5bf-4c6d-96c4-f43b89dfa213
-  ScriptInputsDefault:
-    {}
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      {}
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/1b7f4c64-8e73-431a-a823-b8dc2b9fb590>
   PrefabRemaps:
     []
@@ -1535,6 +1505,22 @@
     []
   Components:
     []
+- !<ScriptComponent/2ae0d4a4-14ca-4ec1-92a0-f1037cddf670>
+  PrefabRemaps:
+    []
+  Name: AgentInteractScript
+  Enabled: true
+  ScriptAsset: !<reference> 29091811-e792-46be-bfa4-28ddec5f11be
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/2af909fa-58b6-4cec-be6c-f56f06e4002c>
   PrefabRemaps:
     []
@@ -3207,6 +3193,21 @@
     - !<own> bf238ae0-58db-4128-abf2-00cf2b21159a
   Components:
     []
+- !<SceneObject/636e13a6-4277-4fee-9ffc-01302ceffd58>
+  PrefabRemaps:
+    []
+  Name: App
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
 - !<SceneObject/65b7c9f6-b839-4e09-a073-1f71d5a152ad>
   PrefabRemaps:
     []
@@ -4063,6 +4064,21 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/757f3167-bec7-4b4c-b6f5-d6fa02713273>
+  PrefabRemaps:
+    []
+  Name: ExperienceUI
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
 - !<SceneObject/75f8edd3-c83d-4d64-a512-e976b9f93b38>
   PrefabRemaps:
     []
@@ -5230,6 +5246,21 @@
       BlendMode: Default
       ScaleMode: Multiply
       PlaybackMode: Single
+- !<SceneObject/97f987fd-898e-438f-9edc-06e90c3c5295>
+  PrefabRemaps:
+    []
+  Name: WristUI
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
 - !<ScriptComponent/9869e81c-4b4f-4c79-9dc5-906e9000bc3e>
   PrefabRemaps:
     []
@@ -5610,6 +5641,22 @@
   ForceCompound: false
   Intangible: false
   ShowCollider: false
+- !<SceneObject/a4511120-0253-45e0-87ad-b65bd9dc316b>
+  PrefabRemaps:
+    []
+  Name: AiPreviewAgent Handler
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e1e5ba45-c6c7-4ea9-8e75-65d512efa3b0
+    - !<own> 2ae0d4a4-14ca-4ec1-92a0-f1037cddf670
 - !<SceneObject/a7e58f02-9be0-4de9-9945-780d7b29bebe>
   PrefabRemaps:
     []
@@ -6465,6 +6512,26 @@
   ScriptTypes:
     "":
       {}
+- !<ScriptComponent/bdbbd2ba-b90f-4c55-8f59-8968f0eeb05f>
+  PrefabRemaps:
+    []
+  Name: SignBridgeAppController
+  Enabled: true
+  ScriptAsset: !<reference> e8c4ad4b-dc09-440b-863c-653a63aef41a
+  ScriptInputsDefault:
+    wristLocalOffset: true
+    wristSmoothingRate: true
+    fallbackDistance: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      wristLocalOffset: !<Vec3> {x: -3.200000, y: 4.000000, z: 2.000000}
+      wristSmoothingRate: !<float> 12.000000
+      fallbackDistance: !<float> 56.000000
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/beae2714-1555-483e-8750-5ad8ad6d00ed>
   PrefabRemaps:
     - 0038f0b3-f198-4816-8283-39ed1e4137f6: ad65ce5b-daf9-4257-7305-ac9b04408743
@@ -6659,7 +6726,7 @@
     - fa104dde-c383-42e2-851a-3d782fc41b3f: 737c1da7-fc67-4d97-44e4-019e8bd3fdc7
     - fa4a4289-98a9-4a8f-9965-16e63cda1ad0: 1cffd4fc-cf46-4ac2-7349-926540d00423
   Name: SIKExamples
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -6825,6 +6892,21 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<SceneObject/c46ce5d4-e92b-46a3-8af7-72d744f70905>
+  PrefabRemaps:
+    []
+  Name: Debug
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
 - !<Image/c51e9ac1-a97d-4c18-bcad-2484ecf21430>
   PrefabRemaps:
     []
@@ -6947,6 +7029,25 @@
     - !<own> 0038f0b3-f198-4816-8283-39ed1e4137f6
   Components:
     - !<own> 0b8d04fa-854f-4d94-9de2-0db2e18007ea
+- !<SceneObject/ca37c006-2a0b-4955-917c-7857dde3f69b>
+  PrefabRemaps:
+    []
+  Name: SignBridge
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 636e13a6-4277-4fee-9ffc-01302ceffd58
+    - !<own> 97f987fd-898e-438f-9edc-06e90c3c5295
+    - !<own> 757f3167-bec7-4b4c-b6f5-d6fa02713273
+    - !<own> e94f7e2a-2dab-47a2-aa18-70034d92eb16
+    - !<own> c46ce5d4-e92b-46a3-8af7-72d744f70905
+  Components:
+    - !<own> bdbbd2ba-b90f-4c55-8f59-8968f0eeb05f
 - !<SceneObject/ca567af9-f203-4af1-839c-14600cd677ad>
   PrefabRemaps:
     []
@@ -7986,6 +8087,22 @@
   ScriptTypes:
     "":
       {}
+- !<ScriptComponent/e1e5ba45-c6c7-4ea9-8e75-65d512efa3b0>
+  PrefabRemaps:
+    []
+  Name: AgentInspectScript
+  Enabled: true
+  ScriptAsset: !<reference> 0b25079c-f5bf-4c6d-96c4-f43b89dfa213
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/e2f6d2d7-f37b-4590-b7e4-7bb49c9bd20d>
   PrefabRemaps:
     []
@@ -8073,6 +8190,21 @@
     InvertRotation: false
   SurfaceOptions: !<SurfaceOptions>
     EnhanceWithNativeAR: false
+- !<SceneObject/e94f7e2a-2dab-47a2-aa18-70034d92eb16>
+  PrefabRemaps:
+    []
+  Name: Playback
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
 - !<SceneObject/ea809365-8119-4c93-84d8-8bd5ba3ba0a9>
   PrefabRemaps:
     []
