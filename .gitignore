@@ -1,0 +1,40 @@
+# BEGIN Lens Studio managed Agents-Docs block
+.mcp.json
+.cursor/mcp.json
+.vscode/mcp.json
+.codex/config.toml
+.claude/settings.local.json
+# END Lens Studio managed Agents-Docs block
+
+# Lens Studio generated state
+Cache/
+Support/
+Workspaces/
+PluginsUserPreferences/
+*.esproj.*.lock
+*.lock
+
+# Machine-specific editor and agent configuration
+.codex/
+.cursor/
+.vscode/
+.claude/
+
+# Local credentials and signing material
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Generated agent inspection and capture output
+.virtual-scene.json
+*.log
+*.tmp
+*.temp
+*.bak
+*.screenshot.*
+
+# Operating-system artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
